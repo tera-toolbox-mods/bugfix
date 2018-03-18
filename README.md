@@ -1,1 +1,1 @@
-# bugfix
+A simple mod that fixes some of the most severe client bugs in TERA.

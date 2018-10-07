@@ -3,7 +3,7 @@
 module.exports = function SwimFix(dispatch) {
 	let lastPos = null
 
-	dispatch.hook('C_PLAYER_LOCATION', 3, {order: -90}, event => {
+	dispatch.hook('C_PLAYER_LOCATION', 5, {order: -90}, event => {
 		if(lastPos &&
 			lastPos.w === event.w &&
 			lastPos.loc.equals(event.loc) &&

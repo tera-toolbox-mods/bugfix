@@ -1,0 +1,6 @@
+{
+	"name": "BugFix",
+	"author": "Pinkie Pie",
+	"namespace": "bugfix",
+	"update": "github:tera-mods/bugfix"
+}

@@ -1,1 +1,1 @@
-A simple mod that fixes some of the most severe client bugs in TERA.
+Collection of mods that fix some of the most severe client bugs in TERA.

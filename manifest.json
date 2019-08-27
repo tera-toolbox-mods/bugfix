@@ -2,12 +2,12 @@
     "files": {
         "index.js": "4842d4ec121ef17c4d5ea0eee7169d5a5c94626ede19416b39305ea0440b6c2b",
         "module.json": "b8330db6340ce48287eb58187d58e282e9399a838c80cf2ece20489115830aa8",
-        "lib/chat-sanitizer.js": "f0e8d7666e5373667a4c0b91c14b70d3c868491aa5f25358a7f9c28650d6498b",
+        "lib/chat-sanitizer.js": "0117ffca404691539dbe041bfe9bc51b00aafa55d87f8053728231864491de72",
         "lib/swim-fix.js": "30dadfa58eaa4057e41a6e5139f8f793da9b793885753356b120bdabeaeae12a"
     },
     "defs": {
-        "S_CHAT": 2,
-        "S_WHISPER": 2,
+        "S_CHAT": 3,
+        "S_WHISPER": 3,
         "S_PRIVATE_CHAT": 1,
 
         "C_PLAYER_LOCATION": 5

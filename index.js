@@ -2,7 +2,7 @@ class Bugfix {
     constructor(mod) {
         const fs = require('fs'),
               path = require('path'),
-              submoduleRoot = path.join(mod.rootFolder, 'lib');
+              submoduleRoot = path.join(mod.info.path, 'lib');
 
         this.submodules = fs.readdirSync(submoduleRoot).map(submodule => {
             const submoduleConstructor = require(path.join(submoduleRoot, submodule));
@@ -20,4 +20,4 @@ class Bugfix {
     }
 }
 
-module.exports = Bugfix;
+exports.NetworkMod = Bugfix;
